@@ -1,6 +1,6 @@
 {
-  "homepage": "https://cezaraus.github.io/To-do-List-React/",
-  "name": "To-do List",
+  "homepage": "https://cezaraus.github.io/",
+  "name": "to-do-list-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
