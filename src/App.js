@@ -12,8 +12,8 @@ function App(props){
     <div>
       <Navbar />
       <Switch>
-        <Route path='/' component={Home} exact/>
-        <Route path='/about' component={About} exact/>
+        <Route path='https://cezaraus.github.io/To-do-List-React/' component={Home} exact/>
+        <Route path='https://cezaraus.github.io/To-do-List-React/about' component={About} exact/>
         <Route component={Error}/>
         </Switch>
     </div>
