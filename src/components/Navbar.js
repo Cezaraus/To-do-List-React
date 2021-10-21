@@ -2,10 +2,13 @@ import React from 'react';
 
 function Navbar(){
     return(
-        <navbar>
-            <a href="../"> Home Page</a>
-            
-            <a href="About"> About Page</a>
+        <navbar className="navbar stack-small">
+            <ul>
+                <li><a href="../"> Home Page</a></li>
+                <li><a href="About"> About Page</a></li>
+            </ul>    
+
+
         </navbar>
     );
 }
