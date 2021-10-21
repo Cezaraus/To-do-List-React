@@ -12,7 +12,7 @@ function App(props){
     <div>
       <Navbar />
       <Switch>
-        <Route path='/To-do-List-React' component={Home} exact/>
+        <Route path='/' component={Home} exact/>
         <Route path='/about' component={About} exact/>
         <Route component={Error}/>
         </Switch>
